@@ -1,0 +1,26 @@
+.purchase {
+  border: 1px solid lightgray;
+  margin: 1rem;
+}
+
+.product {
+  margin: 1rem;
+  /* border: 1px solid black; */
+  background-color: azure;
+}
+
+.product p {
+  cursor: pointer;
+  padding: 5px;
+  margin: 0;
+}
+
+.purchase h4 {
+  font-size: 20px;
+  color: lightgray;
+}
+
+.product:hover {
+  background-color: lightgray;
+  color: #fff;
+}

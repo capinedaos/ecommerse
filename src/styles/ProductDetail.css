@@ -1,0 +1,109 @@
+.swiper-slide {
+  user-select: none;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 25px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev :hover {
+  color: lightgray;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide img {
+  width: 300px;
+  height: 300px;
+}
+
+.product-detail span {
+  color: black;
+  font-size: 25px;
+}
+
+.similar-items {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.similar-items h2 {
+  color: #f85555;
+  margin-bottom: 2rem;
+}
+
+.quantity {
+  display: flex;
+  width: 9rem;
+}
+
+.quantity span {
+  width: 3rem;
+  height: 2rem;
+  font-size: 20px;
+  border: 1px solid lightgray;
+}
+
+.quantity button {
+  width: 3rem;
+  height: 2rem;
+  border: none;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  background-color: transparent;
+}
+
+.item-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.container-quantity {
+  margin: auto;
+  margin-left: 2rem;
+}
+
+.add-cart {
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+  border: none;
+  background: #f85555;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.add-cart:hover,
+.quantity button:hover {
+  background-color: lightgray;
+  color: #000;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  /* border: 1px solid black; */
+  margin: 10px;
+}

@@ -1,0 +1,42 @@
+.item-cart {
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-cart p {
+  margin: 0;
+}
+
+.item-cart:hover {
+  background-color: lightgray;
+  color: #fff;
+}
+
+.item-cart button,
+.container-checkout button {
+  border: none;
+  background-color: #f85555cd;
+}
+
+.item-cart button:hover,
+.container-checkout button:hover {
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-cart i {
+  color: #fff;
+}
+
+.container-checkout {
+  margin-top: 1rem;
+}
+
+.container-checkout button {
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  color: #fff;
+}

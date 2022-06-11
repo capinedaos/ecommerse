@@ -1,0 +1,132 @@
+.content-home {
+  padding: 1rem;
+}
+
+.home-form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.home-form input {
+  border: none;
+  outline: none;
+  padding: 0.6rem 1rem;
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+.home-form button {
+  border: none;
+  /* padding: 0.5rem 1rem; */
+  background-color: #f85555;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.home-form i {
+  /* border: 1px solid black; */
+  padding: 0.8rem 1rem;
+}
+
+.card {
+  margin: 1rem;
+  cursor: pointer;
+  max-width: 15rem;
+  min-height: 26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.2s;
+}
+
+.card:hover {
+  box-shadow: 10px 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+  display: block;
+  width: 14rem;
+  height: 16rem;
+  object-fit: contain;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.card h2 {
+  font-size: 15px;
+  margin: 0.5rem;
+}
+
+.ul-targets {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid rgb(231, 231, 231);
+  padding: 0;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin: 0.5rem;
+}
+
+.price button {
+  border: none;
+  background-color: #f85555;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: 1s;
+  border-radius: 50%;
+}
+
+.price button:hover,
+.price i:hover,
+.home-form i:hover {
+  background-color: #fff;
+  color: #f85555;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.price i {
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.item-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-price p {
+  margin: auto;
+}
+
+.ul-categories {
+  display: flex;
+  margin-top: 1rem;
+  padding: 0;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.ul-categories li {
+  cursor: pointer;
+  line-height: 2rem;
+  width: 100%;
+  /* border-bottom: 1px solid lightgray; */
+}
+
+.ul-categories li:hover {
+  color: #fff;
+  background-color: lightgray;
+}
+
+.description-card {
+  border-top: 1px solid lightgray;
+  height:40%;
+}
